@@ -64,6 +64,7 @@ executable project-euler
     other-modules:
         Problem0000
         Problem0001
+        Problem0004
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:

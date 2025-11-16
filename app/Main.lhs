@@ -6,6 +6,7 @@ import Text.Read (readMaybe)
 
 import qualified Problem0000
 import qualified Problem0001
+import qualified Problem0004
 
 main :: IO ()
 main = do
@@ -20,5 +21,6 @@ runProblem :: Int -> IO ()
 runProblem n = case n of
     0 -> print Problem0000.solve
     1 -> print Problem0001.solve
+    4 -> print Problem0004.solve
     _ -> putStrLn $ "Problem " ++ show n ++ " not found"
 \end{code}
