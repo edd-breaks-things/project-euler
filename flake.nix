@@ -40,7 +40,7 @@
         apps.default = flake-utils.lib.mkApp {
           drv = pkgs.writeScriptBin "run-project-euler" ''
             #!${pkgs.bash}/bin/bash
-            ${pkgs.cabal-install}/bin/cabal run
+            ${pkgs.cabal-install}/bin/cabal run project-euler -- "$@"
           '';
         };
         
