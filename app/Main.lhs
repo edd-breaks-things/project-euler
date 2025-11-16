@@ -1,9 +1,9 @@
 \begin{code}
 module Main where
 
-import qualified Problem0001 as P1
+import Problem0000
 
 main :: IO ()
 main = do
-    print P1.solve
+    print Problem0000.solve
 \end{code}
